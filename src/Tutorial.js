@@ -10,8 +10,9 @@ var mysql = require('mysql');
 var theConnection = mysql.createConnection({
 						host: "localhost",
 						user: "root",
-						password: "root",
-						database: "nodejs"
+						password: "bharath",
+						database: "nodejs",
+						port:4406
 					});
 
 var contactId = null;
